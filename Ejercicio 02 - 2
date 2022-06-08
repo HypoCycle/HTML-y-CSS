@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Ejercicio 02/2</title>
+    </header>
+    <body>
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Diccionario de simbología</td>
+                <td>Juan Eduardo Cirlot</td>
+                <td>1958</td>
+            </tr>
+            <tr>
+                <td>Obra completa</td>
+                <td>Félix Francisco Casanova</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>En amora, ando nos</td>
+                <td>Poeu Tánaso y Amora Liliaz</td>
+                <td>2018</td>
+            </tr>
+        </table>
+    </body>
+</html>
