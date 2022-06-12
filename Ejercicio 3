@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multimedia elements</title>
+    </head>
+    <body>
+        <div>
+            <h1>Aprendiendo a utilizar imágenes</h1>
+            <img width="300" src="https://pics.filmaffinity.com/The_Witcher_Serie_de_TV-330642357-large.jpg" alt="Logo HTML5">
+        </div>
+        <div>
+            <h1>Aprendiendo a utilizar vídeos</h1>
+            <video width="300" height="300" controls autoplay muted>
+                <source src="CALCIUM.mp4" type="Video/mp4"/>
+            </video>
+        </div>
+        <div>
+            <audio controls autoplay loop>
+                <source src="swing.mp3" type="Audio/mp3"/>
+            </audio>
+        </div>   
+    </body>
+</html>
