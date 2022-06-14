@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <img class="imagen-principal" src="water-surface-underwater-swimming-pool-surface-water-background.jpg" alt="html5.jpg">
+    <div class="galeria">
+        <img class="imagen-galeria" src="Bañador Calcium Frente.jpg" alt="imagen1">
+        <img class="imagen-galeria" src="Bañador Calcium Reverso.jpg" alt="imagen2">
+        <img class="imagen-galeria" src="Braga brasileña Calcium Frente.jpg" alt="imagen3">
+        <img class="imagen-galeria" src="Braga brasileña Calcium Reverso.jpg" alt="imagen4">
+        <img class="imagen-galeria" src="Braga frunce Calcium Frente.jpg" alt="imagen5">
+        <img class="imagen-galeria" src="Braga frunce Calcium Reverso.jpg" alt="imagen6">
+    </div> 
+</body>
+</html>
+
+CSS
+
+.imagen-principal {
+    width: 100vw;
+    
+}
+
+.imagen-galeria {
+    width: 300px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+
+}
